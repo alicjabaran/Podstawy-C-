@@ -16,7 +16,7 @@ namespace Zadanie_dziewiąte
             for (i = 1;  i <= 10; i++)
             {
                 for (j = 1; j <= 10; j++)
-                    Console.Write("{0}, ", i*j);
+                    Console.Write("{0,3}, ", i*j);
                 Console.WriteLine("");
 
                 
