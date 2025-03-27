@@ -42,7 +42,7 @@ namespace Zadanie_6
                         a = Convert.ToDouble(Console.ReadLine());
                         Console.WriteLine("Podaj dlugość boku h = ");
                         b = Convert.ToDouble(Console.ReadLine());
-                        Console.WriteLine("Pole prostokąta wynosi = {0}", a * b / 2.0);
+                        Console.WriteLine("Pole trójkąta wynosi = {0}", a * b / 2.0);
                         break;
                     default:
                         Console.WriteLine("Bląd");
