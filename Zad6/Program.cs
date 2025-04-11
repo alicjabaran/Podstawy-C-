@@ -23,8 +23,8 @@ argumentach. Przetestuj działanie utworzonej procedury*/
             for (i = 2; i <= a; i++)
             {
                 Console.Write(znak1);
-                for (j = 2; j <= a - 1; j++)
-                    Console.Write(znak1);
+                for (j = 2; j <= a - 1; j++) Console.Write(znak2);
+                Console.Write(znak1);
                 Console.WriteLine("");
             }
             for (i = 1; i <= a; i++)
